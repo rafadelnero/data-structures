@@ -1,6 +1,6 @@
 
 void main() {
-    var result = haveSameElements(new int[] { 1, 2, 3, 4, 5 }, new int[] { 1, 2, 3, 4, 5 });
+    var result = haveSameElements(new int[] { 2, 2, 1, 3, 4, 5 }, new int[] { 1, 2, 3, 4, 5, 2 });
     System.out.println(result);
 }
 
@@ -12,6 +12,7 @@ public boolean haveSameElements(int[] arr1, int[] arr2) {
     // Count elements in first array
     Map<Integer, Integer> countMap = new HashMap<>();
     for (int num : arr1) {
+        // The value is the counter of how many elements it's there
         countMap.put(num, countMap.getOrDefault(num, 0) + 1);
     }
 

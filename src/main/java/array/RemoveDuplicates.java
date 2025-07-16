@@ -1,4 +1,10 @@
 
+/*
+Given a sorted array of integers, remove the duplicates in-place such that each element appears
+only once and return the new length.
+Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+The order of elements should be kept the same.
+ */
 void main() {
     removeDuplicates(new int[] { 1, 1, 2 });
 }

@@ -1,5 +1,5 @@
 
-// Problem: Find two numbers in an array that add up to a target value.
+// Problem: Find two numbers (indexes) in an array that add up to a target value.
 void main() {
     var result = twoSum(new int[] { 2, 7, 11, 15 }, 9);
     System.out.println(Arrays.toString(result));

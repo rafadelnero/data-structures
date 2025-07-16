@@ -1,7 +1,8 @@
 
 // Problem: Find the largest element in an array of integers.
 void main() {
-    findMax(new int[] { 1, 2, 3, 4, 5 });
+    var result = findMax(new int[] { 1, 2, 3, 4, 5 });
+    System.out.println(result);
 }
 
 public int findMax(int[] nums) {

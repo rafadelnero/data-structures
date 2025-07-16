@@ -24,4 +24,5 @@ public void reverseArray(int[] nums) {
         left++;
         right--;
     }
+    System.out.println(nums);
 }
