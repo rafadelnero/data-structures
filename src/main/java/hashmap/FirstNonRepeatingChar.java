@@ -1,7 +1,8 @@
 
 // Problem: Find the first non-repeating character in a string.
 void main() {
-    firstNonRepeatingChar("abacdeff");
+    var result = firstNonRepeatingChar("abacdeff");
+    System.out.println(result);
 }
 
 public char firstNonRepeatingChar(String str) {

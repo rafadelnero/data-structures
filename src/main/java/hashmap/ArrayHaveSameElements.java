@@ -1,4 +1,5 @@
 
+// Verify if arrays have the same elements
 void main() {
     var result = haveSameElements(new int[] { 2, 2, 1, 3, 4, 5 }, new int[] { 1, 2, 3, 4, 5, 2 });
     System.out.println(result);
